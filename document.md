@@ -18,6 +18,8 @@
   - ***사과***
 - 줄 긋기(~~ ~~)
   - ~~사과~~
+- escape(` `)
+  - `<code></code>`
 
 ## 리스트  
 - '-', '*', '1.' 사용가능
@@ -41,16 +43,79 @@
 - enter 2번이면 문단 변경
 
 ## 링크  
-- [링크 텍스트] (url)
+- `[링크 텍스트](url)`
   - [google테스트](https://www.google.com)
     > url은 (괄호)로 감싸는 것에 주의
 
+**참조링크 사용방법**  
+`[Google][GoogleLink]`  
+> 행을 꼭 띄워야함
+  
+`[GoogleLink]: https://www.google.com`  
+
+[Google][GoogleLink]
+
+[GoogleLink]: https://www.google.com  
+
+
 ## 이미지  
-- ![이미지 이름] (url)
-  - ![Test][
+- `![이미지 이름](url)`
+![Test](https://github.com/user-attachments/assets/69c3844b-04fb-48d8-9baa-54a4e1aba47c)
 
+- Html 사용해서 이미지 편집 가능  
+  `<img src = "링크" width = "100px" height = "50px" 등등></img>`  
+  <img src = "https://github.com/user-attachments/assets/69c3844b-04fb-48d8-9baa-54a4e1aba47c" weight = "450px" height = "300"></img>
 
+## 코드블럭  
+- 한줄짜리 `
+  - `백틱을 이용하셔야 합니다`
+ 
+- 여러 줄짜리 ```
+  - ```
+    a
+    bc
+    def
+    ```
+- Html 사용 `<code></code>`
+  <code>
+  as
+  asas
+  </code>
 
+## 인용문  
+- `>` 를 사용하여 인용 가능
+  - `>` 개수에 따라서 세부인용
+> 1번입니다
+> > 2번입니다
+> > > . . .
+
+## 표
+- `|`를 사용하여 표 작성 가능  
+기본정렬(왼쪽) | 가운데 정렬 | 오른쪽 정렬  
+--- | :---: | ---:  
+왼쪽 | 가운데 | 오른쪽
+
+기본정렬(왼쪽) | 가운데 정렬 | 오른쪽 정렬  
+--- | :---: | ---:
+왼쪽 | 가운데 | 오른쪽
+
+## 수식(Latex)  
+- $사용하여 수식 처리 가능 `$수식$`
+
+$E = mc^2$  
+
+## 각주  
+`문장 작성 [^alpha]`
+
+`[alpha]: 각주 설명` 
+
+---
+
+알파에 대한 설명입니다[^alpha]  
+베타에대한설명입니다[^beta]
+
+[^alpha]: 알파에 대한 각주입니다
+[^beta]: 베타에 대한 각주입니다
 
 
 
