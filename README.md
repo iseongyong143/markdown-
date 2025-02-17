@@ -50,4 +50,6 @@ _alpha_
 개행 테스트
 
 아야어여  
-오요우유
+오요우유  
+![image](https://github.com/iseongyong143/first/issues/1#issue-2856720402)  
+![image](https://user-images.githubusercontent.com/80378085/150758811-3f9b193c-6587-4c3c-8394-fc7089c8c77c.png)
