@@ -51,5 +51,6 @@ _alpha_
 
 아야어여  
 오요우유  
-![image](https://github.com/iseongyong143/first/issues/1#issue-2856720402)  
+![image](https://github.com/iseongyong143/first/issues/1#issue-2856720402) <--이건 이슈의 링크입니다  
+!(https://github.com/user-attachments/assets/69c3844b-04fb-48d8-9baa-54a4e1aba47c) <--이게 적절한 링크입니다  
 ![image](https://user-images.githubusercontent.com/80378085/150758811-3f9b193c-6587-4c3c-8394-fc7089c8c77c.png)
