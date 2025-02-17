@@ -87,4 +87,6 @@ _alpha_
 **각주
 이것은 예제 문장입니다.[^footnote]
 
-[^footnote]: 이것은 각주입니다.
+[^footnote]: 이것은 각주입니다.  
+
+<u>test</u>
