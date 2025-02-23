@@ -38,9 +38,8 @@
   ```
   
 ### Block
-  - Block 확인
-    - Main Process 상태 확인
-      - disMP
+  - Main Process 상태 확인
+    - disMP
   <blockquote>- 각각의 프로세스가 정상 동작중인지 확인한다.</blockquote>
 
   ```
