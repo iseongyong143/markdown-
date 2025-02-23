@@ -1,6 +1,6 @@
 ## Hw 상태
-- **Hw 상태 확인**
-  - Interface 확인
+### Hw 상태 확인
+  - **Interface 확인**
     - ifconfig -a
     - netstat -i
   <blockquote>ifconfig -a 명령어를 이용하여 사용하는 interface가 모두 up 이 되어 있는지 여부를 확인한다.<br>netstat -i 명령어를 이용하여 Cable 연결상태 확인 errs가 모두 0을 확인한다.</blockquote>  
@@ -27,7 +27,7 @@
   ```
 
 ## 서비스 블록 상태 확인
-- **Configuration**
+### Configuration
   - block configuration 정보 확인
     - cd ~/etc/ini
     - cat block_config.ini
@@ -37,7 +37,7 @@
   특이사항 작성
   ```
   
-- **Block**
+### Block
   - Block 확인
     - Main Process 상태 확인
       - disMP
