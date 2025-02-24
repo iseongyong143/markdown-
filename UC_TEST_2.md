@@ -34,7 +34,7 @@
   <blockquote>- ini폴더에 각각의 block 별 Configuration 정보가 적절하게 설정되어 있는지 확인한다.</blockquote>
 
   ```
-  특이사항 작성
+ 이상 있음
   ```
   
 ### Block
