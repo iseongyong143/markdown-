@@ -1,3 +1,5 @@
+##### return  
+
 ## Hw 상태
 ### Hw 상태 확인
 [Interface 확인](#interface)  
@@ -14,6 +16,7 @@
 
 ## Hw 상태
 ### Hw 상태 확인
+[처음으로 돌아가기](#return)  
 #### Interface
     - ifconfig -a
     - netstat -i
@@ -22,6 +25,7 @@
   ```
   특이사항 작성
   ```
+
   
 #### Route Table
     - netstat -rn
@@ -40,24 +44,22 @@
   특이사항 작성
   ```
 
+
 ## 서비스 블록 상태 확인
 ### Configuration
+[처음으로 돌아가기](#return)  
 #### block configuration
     - cd ~/etc/ini
     - cat block_config.ini
   <blockquote>- ini폴더에 각각의 block 별 Configuration 정보가 적절하게 설정되어 있는지 확인한다.</blockquote>
 
   ```
- 이상 있음
- 이상 있음
-  이상 있음
- 이상 있음
- 이상 있음
- 이상 있음
- 이상 있음
+  특이사항 작성
   ```
-  
+
+
 ### Block
+[처음으로 돌아가기](#return)  
 #### Main Process1
     - disMP
   <blockquote>- 각각의 프로세스가 정상 동작중인지 확인한다.</blockquote>
@@ -65,6 +67,7 @@
   ```
   특이사항 작성
   ```
+
 
 #### Main Process2
     - ocl 1
@@ -74,6 +77,7 @@
   ```
   특이사항 작성
   ```
+
   
 #### Block stack  
     - pstack `{PID}`
