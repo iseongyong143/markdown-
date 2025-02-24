@@ -1,10 +1,48 @@
 ## Hw 상태
 ### Hw 상태 확인
-[Interface 확인](#interface-확인)  
-[Route Table 확인](#route-table-확인)  
-[NTP 동기화 확인](ntp-동기화-확인)  
+[Interface 확인](#interface)  
+[Route Table 확인](#route-table)  
+[NTP 동기화 확인](ntp)  
 
-#### Interface 확인
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+#### Interface
     - ifconfig -a
     - netstat -i
   <blockquote>ifconfig -a 명령어를 이용하여 사용하는 interface가 모두 up 이 되어 있는지 여부를 확인한다.<br>netstat -i 명령어를 이용하여 Cable 연결상태 확인 errs가 모두 0을 확인한다.</blockquote>  
@@ -13,7 +51,7 @@
   특이사항 작성
   ```
   
-#### Route Table 확인
+#### Route Table
     - netstat -rn
     - cat /etc/sysconfig/network-scripts/ifcfg-bond0
   <blockquote>Default gateway가 정상적으로 설정되어 있음을 확인한다.<br>Bond 구성 정보를 확인한다.</blockquote>    
@@ -22,7 +60,7 @@
   특이사항 작성
   ```
   
-#### NTP 동기화 확인
+#### NTP
     - ntpq -p
   <blockquote>Time Server와 동기화 되는지 확인한다.</blockquote> 
   
