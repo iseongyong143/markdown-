@@ -1,7 +1,7 @@
 ##### return  
 기능 | 점검항목 | 링크 |  
 :---: | :---: | :---: | 
-| **시스템 확인** | 시스템 로그 확인 | OS에서 생성하는 시스템 로그 확인 | 
+| **시스템 확인** | 시스템 로그 확인 | [OS에서 생성하는 시스템 로그 확인](#os) | 
 | **HW 상태** | HW 상태 확인 | [Interface 확인](#interface) | 
 | | ㄴ | [Route Table 확인](#route-table)    | 		
 | | ㄴ | [NTP 동기화 확인](#ntp) | 
@@ -11,8 +11,16 @@
 | | ㄴ | [Block별 Stack 확인](#block-stack) | 
 
 
+## :one: 시스템 확인
+***시스템 로그확인***  
+[처음으로 돌아가기](#return)  
+### OS
+    - /var/log/messages 파일을 vi 편집기를 이용하여 확인한다.
+    - dmesg 명령어 수행내역으로 fail, error , fault 등의 내역 중 특이사항이 있는지 여부를 확인한다.
+<blockquote>fail, error, fault 등의 내역을 확인함으로 시스템의 이상 유무를 판단한다.</blockquote>
 
-## :one: Hw 상태
+
+## 2️⃣ Hw 상태
 ***Hw 상태 확인***    
 [처음으로 돌아가기](#return)  
 ### Interface  
@@ -43,7 +51,7 @@
   ```
 
 
-## :two: 서비스 블록 상태 확인
+## 3️⃣ 서비스 블록 상태 확인
 ***Configuration***   
 [처음으로 돌아가기](#return)  
 ### block configuration
