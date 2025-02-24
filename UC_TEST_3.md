@@ -2,7 +2,7 @@
 기능 | 점검항목 | 링크 |  
 :---: | :---: | :---: | 
 | **시스템 확인** | 시스템 로그 확인 | OS에서 생성하는 시스템 로그 확인 | 
-| **HW 상태** | HW 상태 확인 | <a href="#:one:interface"> Interface 확인</a> | 
+| **HW 상태** | HW 상태 확인 | [Interface 확인](#interface) | 
 | | ㄴ | [Route Table 확인](#route-table)    | 		
 | | ㄴ | [NTP 동기화 확인](#ntp) | 
 | **서비스 블록 상태 확인** | Configuration | [block configuration 정보 확인](#block-configuration) | 
@@ -15,7 +15,7 @@
 ## Hw 상태
 ### Hw 상태 확인
 [처음으로 돌아가기](#return)  
-#### :one: Interface
+#### Interface  
     - ifconfig -a
     - netstat -i
   <blockquote>ifconfig -a 명령어를 이용하여 사용하는 interface가 모두 up 이 되어 있는지 여부를 확인한다.<br>netstat -i 명령어를 이용하여 Cable 연결상태 확인 errs가 모두 0을 확인한다.</blockquote>  
