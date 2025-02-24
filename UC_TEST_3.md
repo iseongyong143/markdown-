@@ -44,7 +44,7 @@
 
 
 ## :two: 서비스 블록 상태 확인
-### Configuration
+***Configuration***
 [처음으로 돌아가기](#return)  
 ### block configuration
     - cd ~/etc/ini
@@ -56,7 +56,7 @@
   ```
 
 
-### Block
+***Block***
 [처음으로 돌아가기](#return)  
 ### Main Process1
     - disMP
