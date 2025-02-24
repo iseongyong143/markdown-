@@ -15,7 +15,7 @@
 ## Hw 상태
 ### Hw 상태 확인
 [처음으로 돌아가기](#return)  
-#### 1️⃣ Interface
+#### Interface
     - ifconfig -a
     - netstat -i
   <blockquote>ifconfig -a 명령어를 이용하여 사용하는 interface가 모두 up 이 되어 있는지 여부를 확인한다.<br>netstat -i 명령어를 이용하여 Cable 연결상태 확인 errs가 모두 0을 확인한다.</blockquote>  
@@ -25,7 +25,7 @@
   ```
 
   
-#### 2️⃣ Route Table
+#### Route Table
     - netstat -rn
     - cat /etc/sysconfig/network-scripts/ifcfg-bond0
   <blockquote>Default gateway가 정상적으로 설정되어 있음을 확인한다.<br>Bond 구성 정보를 확인한다.</blockquote>    
