@@ -24,7 +24,7 @@
     - cat /etc/sysconfig/network-scripts/ifcfg-bond0
   <blockquote>Default gateway가 정상적으로 설정되어 있음을 확인한다.<br>Bond 구성 정보를 확인한다.</blockquote>    
 
-#### 3️⃣ NTP
+#### NTP 3️⃣ 
     - ntpq -p
   <blockquote>Time Server와 동기화 되는지 확인한다.</blockquote> 
 
