@@ -2,7 +2,7 @@
 기능 | 점검항목 | 링크 |  
 :---: | :---: | :---: | 
 | **시스템 확인** | 시스템 로그 확인 | OS에서 생성하는 시스템 로그 확인 | 
-| **HW 상태** | HW 상태 확인 | a href="#interface">:smile: Interface 확인</a> | 
+| **HW 상태** | HW 상태 확인 | a href="#interface">:one: Interface 확인</a> | 
 | | ㄴ | [Route Table 확인](#route-table)    | 		
 | | ㄴ | [NTP 동기화 확인](#ntp) | 
 | **서비스 블록 상태 확인** | Configuration | [block configuration 정보 확인](#block-configuration) | 
