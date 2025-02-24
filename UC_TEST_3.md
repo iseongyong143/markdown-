@@ -1,17 +1,15 @@
 ##### return  
+기능 | 점검항목 | 링크 |  
+:---: | :---: | :---: | 
+| **시스템 확인** | 시스템 로그 확인 | OS에서 생성하는 시스템 로그 확인 | 
+| **HW 상태** | HW 상태 확인 | [Interface 확인](#interface)   | 
+| | ㄴ | [Route Table 확인](#route-table)    | 		
+| | ㄴ | [NTP 동기화 확인](#ntp) | 
+| **서비스 블록 상태 확인** | Configuration | [block configuration 정보 확인](#block-configuration) | 
+| ㄴ | Block 확인 | [Main Process 상태 확인_1](#main-process1) | 
+| | ㄴ | M[Main Process 상태 확인_2](#main-process2)  |
+| | ㄴ | [Block별 Stack 확인](#block-stack) | 
 
-## Hw 상태
-### Hw 상태 확인
-[Interface 확인](#interface)  
-[Route Table 확인](#route-table)  
-[NTP 동기화 확인](#ntp)  
-## 서비스 블록 상태 확인  
-### Configuration  
-[block configuration 정보 확인](#block-configuration)
-### Block  
-[Main Process 상태 확인_1](#main-process1)  
-[Main Process 상태 확인_2](#main-process2)  
-[Block별 Stack 확인](#block-stack)
 
 
 ## Hw 상태
