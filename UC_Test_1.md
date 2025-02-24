@@ -9,5 +9,23 @@
 | | ㄴ | Main Process 상태 상세 확인 | * ocl 1<br>* dis-proc<blockquote>- 각각의 프로세스의 status 및 기동시간, Run_count 등 block 별 상세 정보를 확인한다. | **작성해 주세요** |
 | | ㄴ | Block 별 stack 확인 | * pstack `{PID}`<blockquote>- 각 블록별 프로세스 스택을 추적한다.<br>- wait, fail, fault 등의 상태가 존재하는지 확인한다. | **작성해 주세요** |
 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+`
+
+
+
+```
 [^1]: 시스템 확인 - 
 [^2]: Hw 상태 - 
