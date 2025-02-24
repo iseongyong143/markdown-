@@ -2,65 +2,18 @@
 ### Hw 상태 확인
 [Interface 확인](#interface)  
 [Route Table 확인](#route-table)  
-[NTP 동기화 확인](ntp)  
-
-```
-
-
-
-
-
-
-
+[NTP 동기화 확인](#ntp)  
+## 서비스 블록 상태 확인  
+### Configuration  
+[block configuration 정보 확인](#block-configuration)
+### Block  
+[Main Process 상태 확인_1](#main-process1)  
+[Main Process 상태 확인_2](#main-process2)  
+[Block별 Stack 확인](#block-stack)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
+## Hw 상태
+### Hw 상태 확인
 #### Interface
     - ifconfig -a
     - netstat -i
@@ -89,7 +42,7 @@
 
 ## 서비스 블록 상태 확인
 ### Configuration
-  - **block configuration 정보 확인**
+#### block configuration
     - cd ~/etc/ini
     - cat block_config.ini
   <blockquote>- ini폴더에 각각의 block 별 Configuration 정보가 적절하게 설정되어 있는지 확인한다.</blockquote>
@@ -105,7 +58,7 @@
   ```
   
 ### Block
-  - **Main Process 상태 확인**
+#### Main Process1
     - disMP
   <blockquote>- 각각의 프로세스가 정상 동작중인지 확인한다.</blockquote>
 
@@ -113,7 +66,7 @@
   특이사항 작성
   ```
 
-  - **Main Process 상태 확인**
+#### Main Process2
     - ocl 1
     - dis-proc
   <blockquote>- 각각의 프로세스의 status 및 기동시간, Run_count 등 block 별 상세 정보를 확인한다.</blockquote>
@@ -122,7 +75,7 @@
   특이사항 작성
   ```
   
-  - **Block 별 stack 확인**
+#### Block stack  
     - pstack `{PID}`
   <blockquote>- 각 블록별 프로세스 스택을 추적한다.<br>- wait, fail, fault 등의 상태가 존재하는지 확인한다.</blockquote>
 
